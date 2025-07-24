@@ -1,12 +1,4 @@
-import com.sun.tools.javac.Main;
-
-import java.lang.reflect.Array;
-
-import static java.lang.System.in;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Warmup_1 {
+public class monkeyTrouble {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
@@ -15,28 +7,17 @@ public class Warmup_1 {
 
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        Warmup_1 mm = new  Warmup_1();
-        System.out.println(mm.nearHundred(0));
-        System.out.println(mm.missingChar("kitten",1));
-
-
-
+        monkeyTrouble mm = new monkeyTrouble();
+        System.out.println(mm.monkeyTrouble(true, true)); // true
+        System.out.println(mm.monkeyTrouble(false, false)); // true
+        System.out.println(mm.monkeyTrouble(true, false)); // false
+        System.out.println(mm.monkeyTrouble(false, true)); // false
     }
-    public boolean sleepIn(boolean weekday, boolean vacation) {
-        if (weekday==false && vacation==false) {
-            return true;
-        } else if (weekday == true && vacation== false) {
-            return false;
-        } else if (weekday == false && vacation== true) {
-            return true;
-        }else  {
-            return true;
-        }
-    }
-
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
         return (aSmile==bSmile);
     }
+}
+/*
 
     public int sumDouble(int a, int b) {
         if (a != b) {
@@ -313,4 +294,4 @@ public class Warmup_1 {
     }
 
 
-}
+*/
