@@ -11,5 +11,4 @@ public class blackjack {
         }
         return Math.max(a, b);
     }
-
 }
