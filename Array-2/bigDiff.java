@@ -12,5 +12,4 @@ public class bigDiff {
     }
     return maximum - minmum;
     }
-
 }
