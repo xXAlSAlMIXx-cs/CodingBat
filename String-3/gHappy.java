@@ -1,5 +1,3 @@
-package String-3;
-
 public class gHappy {
     public boolean gHappy(String str) {
         for (int i = 0; i < str.length(); i++) {
