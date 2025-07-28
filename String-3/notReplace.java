@@ -3,7 +3,6 @@ public class notReplace {
         if (str.length() < 2) {
             return str;
         }
-
         String result = "";
         int i = 0;
         while (i < str.length()) {
